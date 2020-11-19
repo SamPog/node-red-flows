@@ -1,4 +1,11 @@
-## Use with these parameters :
+A simple subflow that allows :
+
+Use actionable notifications with the ability to adapt to the response.
+
+Trigger actions after a timeout.
+
+
+
 
 #### Obligatory parameters :
 
@@ -26,7 +33,7 @@ msg.params.ttl = 0 (default value)
 msg.params.priority = "high" (default value)
 
 
-### Output :
+#### Output :
 
 If timeout, the output payload is "timeout".
 
