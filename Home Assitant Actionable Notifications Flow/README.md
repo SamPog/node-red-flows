@@ -1,12 +1,6 @@
-READ ME :
-test
-ok
-truc
+## Use with these parameters :
 
-
-Use with these parameters :
-
-Obligatory parameters :
+#### Obligatory parameters :
 
 
 msg.params.service "notify.mobile_app_phone_sam"
@@ -16,7 +10,7 @@ msg.params.titre = "Notification Title"
 msg.params.message = "Message de la notification"
 
 
-Optional parameters :
+#### Optional parameters :
 
 msg.params.image = "/api/camera_proxy/camera.camera_garage"
 
@@ -32,7 +26,7 @@ msg.params.ttl = 0 (default value)
 msg.params.priority = "high" (default value)
 
 
-Output :
+### Output :
 
 If timeout, the output payload is "timeout".
 
